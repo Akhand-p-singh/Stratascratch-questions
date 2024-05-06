@@ -13,7 +13,7 @@ from library_usage
 where 
     circulation_active_month = 'April' AND 
     year_patron_registered = 2015 AND 
-    age_range = '65 and 74 years'
+    age_range = '65 to 74 years'
 GROUP BY 
     year_patron_registered, home_library_definition
 ORDER BY
